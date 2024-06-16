@@ -10,9 +10,9 @@
     --foreground: 200 50% 3%;
   }
 
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: white) {
     :root {
-      --background: 200 50% 3%;
+      --background: #F1F5F9;
       --btn-background: 200 10% 9%;
       --btn-background-hover: 200 10% 12%;
       --foreground: 200 20% 96%;

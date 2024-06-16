@@ -1,0 +1,28 @@
+    .custom-checkbox {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-color: #fff;
+      border: 2px solid #d1d5db; /* Tailwind's gray-300 */
+      border-radius: 9999px; /* rounded-full */
+      width: 1.25rem; /* h-5 */
+      height: 1.25rem; /* w-5 */
+      position: relative;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .correct .custom-checkbox {
+      background-color: #84cc16; /* Tailwind's lime-400 */
+      border-color: #84cc16; /* Tailwind's lime-400 */
+    }
+
+    .correct .custom-checkbox::after {
+      content: '\2714';
+      color: white;
+      font-size: 0.75rem; /* text-sm */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
